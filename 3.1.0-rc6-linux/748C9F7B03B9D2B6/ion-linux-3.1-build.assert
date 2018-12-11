@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    2ae9262b8a8b046cb42d9ca59f787eed06a64ac7920d71c13bb0812830c9d7b9  ion-3.1.00-aarch64-linux-gnu-debug.tar.gz
-    5785403acc027c6066e8febf3e3982bf47297c7217b27716fc157d122255497f  ion-3.1.00-aarch64-linux-gnu.tar.gz
-    34bc8661add9d163b08ac6801cc7bc8ca8ae3a6a032f003271089713a5bf4689  ion-3.1.00-arm-linux-gnueabihf-debug.tar.gz
-    92a1dbc419358558161ef88d933a494fb08865ffb9e19e618fbddb09dfbaae46  ion-3.1.00-arm-linux-gnueabihf.tar.gz
-    393720a196f96facf8c1bd534e3005233f38abd1d38f20122f906496f58da5df  ion-3.1.00-i686-pc-linux-gnu-debug.tar.gz
-    767b52deffe6696b8fcd4546ce0e0d5a57cc56ba24ab75f76b9ad1c9f0a25aa0  ion-3.1.00-i686-pc-linux-gnu.tar.gz
-    09b33c4db06a3a9060a4fb968e453b12f55f31260c0dda4f44c60ed3507aebd2  ion-3.1.00-x86_64-linux-gnu-debug.tar.gz
-    f7f4704a4474557a9d08c71d2d20dd710559b2ef5256372203a14aa27952db40  ion-3.1.00-x86_64-linux-gnu.tar.gz
-    76f563742713298f5461efb56db3825ff19366219619f51658a9746a2368f55a  src/ion-3.1.00.tar.gz
+    503ba05fc4a9b830c617421d86225b96b6484750d9ea74f536aade64b4d72845  ion-3.1.00-aarch64-linux-gnu-debug.tar.gz
+    1d5d38395a203db83756bee582c8d22200485334a295f3f741b7ddcb169c35a6  ion-3.1.00-aarch64-linux-gnu.tar.gz
+    bc31d6e4c16656cc2ea90482896a86be9b40efadc24df87ff83b9f8688c5adf2  ion-3.1.00-arm-linux-gnueabihf-debug.tar.gz
+    f1c78dc2987a8728c91539b953322bbd29f8923b7cb7371e436289b53b2aaa0d  ion-3.1.00-arm-linux-gnueabihf.tar.gz
+    3eda76612bf347c5879d84e36f18e52f530ac4d8da26fdbdb98a2d143478bca3  ion-3.1.00-i686-pc-linux-gnu-debug.tar.gz
+    5c823d3587b55b119caa4a0aebc83011b7baea2ab2cbfe535048c6da48256c2b  ion-3.1.00-i686-pc-linux-gnu.tar.gz
+    3b104e5d45938d2abb2f0def8849b224a042f5bba501c8d2bdca21eb1210c066  ion-3.1.00-x86_64-linux-gnu-debug.tar.gz
+    5891af73ca5706308a266e75899077678a5baacdc3a610b204e84c38fff049b7  ion-3.1.00-x86_64-linux-gnu.tar.gz
+    def8cd5534eff2fec8b6616a02155884eb0ec69ff25913ecbf690d05a472caaf  src/ion-3.1.00.tar.gz
 - in_manifest: |-
     743b615a941c963e34d9176047cb6b4f2d4c39f14946ae379015dffab2b079e5  ion-linux-3.1-desc.yml
-    git:7a10585294e12196acdc2b14c1e604f80b49a093 ion
+    git:dcd8c14f2db0c08b1492bcb7e2f0e0c0294ab98d ion
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -367,6 +367,7 @@
     e412c568c1086517540477f53471bd60e4963b4d1c741eb3077f7384f5e2e013  download-stamps/.stamp_fetched-protobuf-protobuf-2.6.1.tar.bz2.hash
     4f1aae01029d0f1b99e12c7c7277ad2aa6029c6deb679a8b39fbea5f49bceeea  download-stamps/.stamp_fetched-qrencode-qrencode-3.4.4.tar.bz2.hash
     d9ba3be2b05c4e4004d87ac162c3a07f87d4a9144fb1b5befc1d5097a52c6772  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.7.1.tar.gz.hash
+    4087b01b390bfeadddaa22ef8013896f9131052e52780b6604ee056027cde126  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.6.tar.xz.hash
     d4b22239cd823ba16790457664844fd4932f8af9823e860fc1975c5e9731a5d5  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.7.tar.xz.hash
     4af4da419d7b883f3408f4481d01673d281d6cfb94ff377d4bd8355db55fcb06  download-stamps/.stamp_fetched-xcb_proto-xcb-proto-1.10.tar.bz2.hash
     ee2477a7137b31b74af6257a0667cf4865dc30627db29457533ad21090a9004b  download-stamps/.stamp_fetched-xextproto-xextproto-7.3.0.tar.bz2.hash
@@ -391,10 +392,13 @@
     ee445612d544d885ae240ffbcbf9267faa9f593b7b101f21d58beceb92661910  protobuf-2.6.1.tar.bz2
     efe5188b1ddbcbf98763b819b146be6a90481aac30cfc8d858ab78a19cde1fa5  qrencode-3.4.4.tar.bz2
     95f83e532d23b3ddbde7973f380ecae1bac13230340557276f75f2e37984e410  qtbase-opensource-src-5.7.1.tar.gz
+    eed620cb268b199bd83b3fc6a471c51d51e1dc2dbb5374fc97a0cc75facbe36f  qtbase-opensource-src-5.9.6.tar.xz
     36dd9574f006eaa1e5af780e4b33d11fe39d09fd7c12f3b9d83294174bd28f00  qtbase-opensource-src-5.9.7.tar.xz
     22d67de915cb8cd93e16fdd38fa006224ad9170bd217c2be1e53045a8dd02f0f  qttools-opensource-src-5.7.1.tar.gz
+    50e75417ec0c74bb8b1989d1d8e981ee83690dce7dfc0c2169f7c00f397e5117  qttools-opensource-src-5.9.6.tar.xz
     d62e0f70d99645d6704dbb8976fb2222443061743689943d40970c52c49367a1  qttools-opensource-src-5.9.7.tar.xz
     3a15aebd523c6d89fb97b2d3df866c94149653a26d27a00aac9b6d3020bc5a1d  qttranslations-opensource-src-5.7.1.tar.gz
+    9822084f8e2d2939ba39f4af4c0c2320e45d5996762a9423f833055607604ed8  qttranslations-opensource-src-5.9.6.tar.xz
     b36da7d93c3ab6fca56b32053bb73bc619c8b192bb89b74e3bcde2705f1c2a14  qttranslations-opensource-src-5.9.7.tar.xz
     316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d  release-2.1.8-stable.tar.gz
     3b3ecb7bf0a5157f5b6010bc3af7c141fb0ad3527084e63336220d22744bc20c  v1.1.2.tar.gz
@@ -444,6 +448,8 @@
     8ee99376332630665f25e24edba0abd328630418fe553ad09eda77c9bf14f503  aarch64-linux-gnu/protobuf/protobuf-2.6.1-e329269b537.tar.gz.hash
     6acf5365f9703a672af3e7d70b96089138854e165a8d69e30fc416fcd780d4d6  aarch64-linux-gnu/qrencode/qrencode-3.4.4-fa613919083.tar.gz
     9c0625fbddff19130da0a574f2670b87a7a7fc00d18083bc6205f55ec6a3e99c  aarch64-linux-gnu/qrencode/qrencode-3.4.4-fa613919083.tar.gz.hash
+    1a7699a7e809c68f2f302c304af91c586d14f7060656a267d3e2d55bbd531461  aarch64-linux-gnu/qt/qt-5.7.1-55ae0c10aa5.tar.gz
+    c35db11d34887af115f34b50a743c9c63ab1425857596227130b0f1730e6ed8a  aarch64-linux-gnu/qt/qt-5.7.1-55ae0c10aa5.tar.gz.hash
     1a7699a7e809c68f2f302c304af91c586d14f7060656a267d3e2d55bbd531461  aarch64-linux-gnu/qt/qt-5.7.1-d4f74f1f059.tar.gz
     c17d584ffa30dd698e3bc234f6bd138898fc4c10df58c28108d9d676f5f9e365  aarch64-linux-gnu/qt/qt-5.7.1-d4f74f1f059.tar.gz.hash
     c5af64f3860f77250525db6c48c692e88fceb90eacd65aa6af5c43aa3e0e5ae6  aarch64-linux-gnu/xcb_proto/xcb_proto-1.10-a120e659543.tar.gz
@@ -494,6 +500,8 @@
     0eca22ea3c6a27747b2b554e87d7af50635616978c56be2e4f0743ebdad1e60b  arm-linux-gnueabihf/protobuf/protobuf-2.6.1-b314b93c4f9.tar.gz.hash
     43ed6504c3931b572a3a83a9a60261508401add3e0e13b254227da14bcb44020  arm-linux-gnueabihf/qrencode/qrencode-3.4.4-cdc2941a56d.tar.gz
     3d43f8c6e95d8ecf39e9d32fc8aced50fed56ca4f345d726913d2be3d5dc7a87  arm-linux-gnueabihf/qrencode/qrencode-3.4.4-cdc2941a56d.tar.gz.hash
+    1103b67b53c44b6d7202226882dc301a33976538bc41f4a599a70c6efe912941  arm-linux-gnueabihf/qt/qt-5.7.1-21ec6181a1f.tar.gz
+    116401bed55a48809dd837e00941be8e3c24a52d3ec2c7df257b64239d353d34  arm-linux-gnueabihf/qt/qt-5.7.1-21ec6181a1f.tar.gz.hash
     1103b67b53c44b6d7202226882dc301a33976538bc41f4a599a70c6efe912941  arm-linux-gnueabihf/qt/qt-5.7.1-426909a0b2f.tar.gz
     77ead9d08a72d3a175e616fd65315b75319be794eba99ecd0eedddd51202f690  arm-linux-gnueabihf/qt/qt-5.7.1-426909a0b2f.tar.gz.hash
     1103b67b53c44b6d7202226882dc301a33976538bc41f4a599a70c6efe912941  arm-linux-gnueabihf/qt/qt-5.7.1-e75ac2d4612.tar.gz
@@ -550,6 +558,8 @@
     839820146a43e60b92927df3c0e1931ce421b5fe3f2b4ab9e1946bd019fd798f  i686-pc-linux-gnu/qt/qt-5.7.1-30e65b7987c.tar.gz.hash
     7a34a796647ef881dc755bd455b5844256408298c71915b795fd7102afa4f52f  i686-pc-linux-gnu/qt/qt-5.7.1-c2ce1a1751d.tar.gz
     7e55aaf47689c302c6bdd2e53b8f87cb87c0be981e977f50ca7d1e6c8af6542e  i686-pc-linux-gnu/qt/qt-5.7.1-c2ce1a1751d.tar.gz.hash
+    7a34a796647ef881dc755bd455b5844256408298c71915b795fd7102afa4f52f  i686-pc-linux-gnu/qt/qt-5.7.1-d7feb0af236.tar.gz
+    ebe9ea26913c9161c30243b68b20d993aec46b8d6e74f80859b251464d113f2f  i686-pc-linux-gnu/qt/qt-5.7.1-d7feb0af236.tar.gz.hash
     315854cf33c3f61ff06e76d4cec96c576ab678b733478717fdbdea09b802bf55  i686-pc-linux-gnu/xcb_proto/xcb_proto-1.10-abc8d029ae5.tar.gz
     0e49dab67965814fb8bf05f70ba0145d28b25601542b3c6ec463f29db107c271  i686-pc-linux-gnu/xcb_proto/xcb_proto-1.10-abc8d029ae5.tar.gz.hash
     10a8609f8f9a6f601b5a03435d1fb32e3f6b2ab8e0169b5ea070b1c1204cffae  i686-pc-linux-gnu/xextproto/xextproto-7.3.0-c51206c6bb0.tar.gz
@@ -600,6 +610,8 @@
     91acf846c215ca26e4779e58b423367036f4924aca35be8f9d06d9125e76df1d  x86_64-linux-gnu/qrencode/qrencode-3.4.4-317789430f5.tar.gz.hash
     32034213110f740d4240b4a0f3a249b4a0828c6e678fd75e98628dc04c8f9aa1  x86_64-linux-gnu/qt/qt-5.7.1-530bb158f46.tar.gz
     9853b6ffbf97eff445d4ae95364edc4d6b26b679871f4c3085a2d79cff66810b  x86_64-linux-gnu/qt/qt-5.7.1-530bb158f46.tar.gz.hash
+    32034213110f740d4240b4a0f3a249b4a0828c6e678fd75e98628dc04c8f9aa1  x86_64-linux-gnu/qt/qt-5.7.1-6dca09b8f17.tar.gz
+    b3e4eb31d27ed74cb62a9f905de00f02932a82fa5dfc4e7f49a14b385c431384  x86_64-linux-gnu/qt/qt-5.7.1-6dca09b8f17.tar.gz.hash
     32034213110f740d4240b4a0f3a249b4a0828c6e678fd75e98628dc04c8f9aa1  x86_64-linux-gnu/qt/qt-5.7.1-8540c45dee0.tar.gz
     c331e427547d479546f2273c8a53f09a173f7b08bb91f3291023a8edca56b3b4  x86_64-linux-gnu/qt/qt-5.7.1-8540c45dee0.tar.gz.hash
     f6984daea290973e0a8cea9493c161bbec3dac20ddfaca72ac4b15902057aeaf  x86_64-linux-gnu/xcb_proto/xcb_proto-1.10-3811242afcf.tar.gz
