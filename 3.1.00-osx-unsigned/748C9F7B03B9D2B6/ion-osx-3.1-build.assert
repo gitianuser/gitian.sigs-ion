@@ -5,8 +5,8 @@
     967170953c8cd2c1e2e59f8d22e53bf569f1427e6e77424a9db96dd10fef8265  ion-3.1.00-osx64.tar.gz
     46142b45a01e37b5866fe21c7fd643ce7e6d1229207202838ec3a785eb93f19f  src/ion-3.1.00.tar.gz
 - in_manifest: |-
-    a03ef2d98dbae6aea50d2d8283b00bb7c2e5969016a3dda19ca5210fa7392162  ion-osx-3.1-desc.yml
-    bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
+    d164a715ff07c98afd114ea25b336acef2377c5857343ad520268d91243881b0  ion-osx-3.1-desc.yml
+    415a427a7c2a91187650ff5dfdb03e4d56912aa29c95471339733e1d569143f8  MacOSX10.11.sdk.tar.xz
     git:0288c6a470068fe1dd8eefaa139590bb0a57fcac ion
 - base_manifests: !!omap
   - bionic-amd64: |
