@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    04fd6909f6c234cf9e346711a684e704583e092eace95850fad6852f3e38bc75  ion-3.1.99-aarch64-linux-gnu-debug.tar.gz
-    ee267f9f376965825bb62172b011fcd94dc17f34eb5deef1967f53afe7b39b66  ion-3.1.99-aarch64-linux-gnu.tar.gz
-    194764207c3cf24d1583520356552014aa7af0a16aefe579d8b889bbfae1087e  ion-3.1.99-arm-linux-gnueabihf-debug.tar.gz
-    fdb15a92c083d98bf3f6529a6c655709cc9c9b4c34140bcd2df88195fe666a19  ion-3.1.99-arm-linux-gnueabihf.tar.gz
-    2537d4504a1d31186df942b8cabffc1f8c5585690917b5bb5259d294c7ac1481  ion-3.1.99-i686-pc-linux-gnu-debug.tar.gz
-    e54226c4f766d85a7a806c13daf4f1a64e94bc9eee7ab218ae62277aa47b1954  ion-3.1.99-i686-pc-linux-gnu.tar.gz
-    0cb9caff3de954968f9a3c20f3fcf5b86e849aacb8d8fee7a57682e6cb04975d  ion-3.1.99-x86_64-linux-gnu-debug.tar.gz
-    4ce071bce3eb072df5a5243fb6ff15734f6cd0546d4bd9f0b63af4d1931794b2  ion-3.1.99-x86_64-linux-gnu.tar.gz
-    80b8f74d5946ffcecb60df8c7815bc9aa753241890bdad00e192888a959c229c  src/ion-3.1.99.tar.gz
+    02e7c2b195e4ea05a6e7762fda316dc727a6ad7753a11235ee61c0e4bf506c33  ion-3.1.99-aarch64-linux-gnu-debug.tar.gz
+    6d615debb7a33162043c46566fd6f68224feee00f07de659240d9ca3250d2f52  ion-3.1.99-aarch64-linux-gnu.tar.gz
+    0d0cf46a896b6e4107d25c454306d50752e755a95a2f231b4a2619f4fb118186  ion-3.1.99-arm-linux-gnueabihf-debug.tar.gz
+    ed6d23162179b8cf7420391bfd565bb0872c33e36cf9996458feba796b76c556  ion-3.1.99-arm-linux-gnueabihf.tar.gz
+    e09bbbde1e0485e9f30a0a51bbe2b896f9879c0c0158546b348ba91eb1531066  ion-3.1.99-i686-pc-linux-gnu-debug.tar.gz
+    4850adcf2bf2a7e367cde0719ed917082bf821f64c1bef1ab0c8d4999bb1b88b  ion-3.1.99-i686-pc-linux-gnu.tar.gz
+    3186ed8ab4bbce54cb637393b2cf593fafb31b20b66f4cd666626da35e42a21c  ion-3.1.99-x86_64-linux-gnu-debug.tar.gz
+    b1b6f5cab02410efd9283af95b99bf38d0b5ec49e852895b0047aebb26759175  ion-3.1.99-x86_64-linux-gnu.tar.gz
+    294bfb8c02ac45fa6605245789954fc9ff30dbc5700da0ef713004668fd820cf  src/ion-3.1.99.tar.gz
 - in_manifest: |-
     3c496a72afe8c5c157228eaa02ed06cda5600233b047cebc10a66b733721ad83  ion-linux-3.1-desc.yml
-    git:17379d1abd88773a840df24656c03551c50718b1 ion
+    git:143ca2494b89c0327ec8de723393f54aed09398d ion
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb

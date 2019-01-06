@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    0ceb07cc2d23f7d232e67f27ddd4689b2f22cc5a9cb1ecb05bb23d46f775b279  ion-3.1.99-osx-unsigned.dmg
-    25ecfe586d0476409241271594f99830cb622beca3d97865c69cfea642b610fa  ion-3.1.99-osx-unsigned.tar.gz
-    fd985d29259126f3c77af4edfd4469999102ee9b2b47042b0d0bc7dcf28ab8c2  ion-3.1.99-osx64.tar.gz
-    80b8f74d5946ffcecb60df8c7815bc9aa753241890bdad00e192888a959c229c  src/ion-3.1.99.tar.gz
+    0e4befadb7851459ffee5fc2137c8c0d0a447d487763635a60b51a0c481ca097  ion-3.1.99-osx-unsigned.dmg
+    072db906e61027bf268cd3c9a43b96aaa19a02cd811ac40946201eb52c631485  ion-3.1.99-osx-unsigned.tar.gz
+    bcec733d5a6b11a378531ee2798aeaf17bdc30bae32e443c4bf42a07f911cd6c  ion-3.1.99-osx64.tar.gz
+    294bfb8c02ac45fa6605245789954fc9ff30dbc5700da0ef713004668fd820cf  src/ion-3.1.99.tar.gz
 - in_manifest: |-
     c5ff2a9ec74138cf92a9c45741e4759070bf8829edfc288358edcf518c0ecca5  ion-osx-3.1-desc.yml
     415a427a7c2a91187650ff5dfdb03e4d56912aa29c95471339733e1d569143f8  MacOSX10.11.sdk.tar.xz
-    git:17379d1abd88773a840df24656c03551c50718b1 ion
+    git:143ca2494b89c0327ec8de723393f54aed09398d ion
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb

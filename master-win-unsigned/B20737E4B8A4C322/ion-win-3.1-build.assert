@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    61be33833df1bdf0f5613e264f3d329ce7ecf594295ea604893f19a402bf4feb  ion-3.1.99-win-unsigned.tar.gz
-    5ec042ff62917b0e72a71ed2003a5841509cede04dd00d6b2dcda11e8c0cf21e  ion-3.1.99-win32-debug.zip
-    892fdf140844fd230175b874a7f3851670ee740437c29f9b6d8fcbadffa637d0  ion-3.1.99-win32-setup-unsigned.exe
-    c4362e9cb19a35662b2b2ed2e9daca3c29942056b01a0f6f57a564a10742cd5e  ion-3.1.99-win32.zip
-    3a392dbeaf5845d68b112da9987c81027e21ff903bdd9f8d0aaecaa060727447  ion-3.1.99-win64-debug.zip
-    23777772380321c25efebd3ce4c094dcfd5871780c4967b1060d13123bc6a439  ion-3.1.99-win64-setup-unsigned.exe
-    803d07dcbb76c61fd2b49ff6d68f9ec55df1a4a38647a262f595640a4fe7d9a8  ion-3.1.99-win64.zip
-    80b8f74d5946ffcecb60df8c7815bc9aa753241890bdad00e192888a959c229c  src/ion-3.1.99.tar.gz
+    0aa203dfa7f78931a288eff37a764cde03c26ac95fe17bbe08c91d56a6d711a6  ion-3.1.99-win-unsigned.tar.gz
+    93b48b360ee905c23bb2b3b8574bd73b5653c083151571ec3f493335d9a30a19  ion-3.1.99-win32-debug.zip
+    aac042ec80eff98be56a750a12fd125e32e2581ce8a0668250c939517c5d2759  ion-3.1.99-win32-setup-unsigned.exe
+    e319eeb4c5e304e5c153be99808838161ceef5dbd9f2fd36d849857b99a34498  ion-3.1.99-win32.zip
+    af52e3e2a963d576117831c9e561e244b1409773461fb901a51adf10c8dc4404  ion-3.1.99-win64-debug.zip
+    daa51f598d9ef218754a370c5ee078ca4dc323fdf0065f86418128f0b9b7d59a  ion-3.1.99-win64-setup-unsigned.exe
+    69fc38beb6bab6b16d245545824af9d38c0d1353a9af34a2d7971737eea5df90  ion-3.1.99-win64.zip
+    294bfb8c02ac45fa6605245789954fc9ff30dbc5700da0ef713004668fd820cf  src/ion-3.1.99.tar.gz
 - in_manifest: |-
     5ccbf989a6dc5069bb0bb9d27394752b41945ed5e94c8b533a6b0166a3c6e1f3  ion-win-3.1-desc.yml
-    git:17379d1abd88773a840df24656c03551c50718b1 ion
+    git:143ca2494b89c0327ec8de723393f54aed09398d ion
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
