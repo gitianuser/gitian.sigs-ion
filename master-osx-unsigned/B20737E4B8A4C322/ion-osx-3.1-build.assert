@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    0e4befadb7851459ffee5fc2137c8c0d0a447d487763635a60b51a0c481ca097  ion-3.1.99-osx-unsigned.dmg
-    072db906e61027bf268cd3c9a43b96aaa19a02cd811ac40946201eb52c631485  ion-3.1.99-osx-unsigned.tar.gz
-    bcec733d5a6b11a378531ee2798aeaf17bdc30bae32e443c4bf42a07f911cd6c  ion-3.1.99-osx64.tar.gz
-    294bfb8c02ac45fa6605245789954fc9ff30dbc5700da0ef713004668fd820cf  src/ion-3.1.99.tar.gz
+    aa421e9aa99d8172a91f74ec2035fa60c5f7be402efef8a39a159f910d50e7a5  ion-3.1.99-osx-unsigned.dmg
+    06dec8edd52f1467f67b6d7753dc91f920a9e99aca4a3b324764146136fa9c80  ion-3.1.99-osx-unsigned.tar.gz
+    b6f716b57de742a6375ac839ae6ee60f3ddf81a6502cda6e6f8263a7b562ed78  ion-3.1.99-osx64.tar.gz
+    a97aa74052b2ee24d55a2d552ba6c42ed7e8c280144b3dc9449de0c946c4b416  src/ion-3.1.99.tar.gz
 - in_manifest: |-
     c5ff2a9ec74138cf92a9c45741e4759070bf8829edfc288358edcf518c0ecca5  ion-osx-3.1-desc.yml
     415a427a7c2a91187650ff5dfdb03e4d56912aa29c95471339733e1d569143f8  MacOSX10.11.sdk.tar.xz
-    git:143ca2494b89c0327ec8de723393f54aed09398d ion
+    git:2e2617ed8034c298bbd75025ac1b2611ca329d2f ion
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -69,6 +69,7 @@
       0fc11873196d319cecab1dc16ebcc025a143636b836d41af6a473fc55ca97185  dpkg_1.19.0.5ubuntu2.1_amd64.deb
       ece5ad51a21fb17c0f63a755a1e925097b5137e6c62c96a6f160696928259bc3  dpkg_1.19.0.5ubuntu2_amd64.deb
       ccc18dea2f3bfef240c179ff142fbff07d084706848579a85bbbd955e2ddc045  e2fsprogs_1.44.1-1_amd64.deb
+      11378a182fb3500735f464674512b8c07333a6f139a2a55498fbc12e131272aa  e2fsprogs_1.44.1-1ubuntu1_amd64.deb
       df72c92e334e019cdd410414f73199570e1067f9fd7baebdc7d895e10883a89f  eject_2.1.5+deb1+cvs20081104-13.2_amd64.deb
       4b5119a3da92c33879518dce0f3152aae77a9c23a1ea9a1400976898ecda37e4  faketime_0.9.7-2_amd64.deb
       74764f7ff110b63a5c44fc6ae25d45fd600a68907638805ec187ee792c700322  fdisk_2.31.1-0.4ubuntu3.2_amd64.deb
@@ -114,11 +115,11 @@
       265afa6a7079ee5009074593c13f18eeb1868d8e200ed677a1eaa60089b90cdb  imagemagick_8%3a6.9.7.4+dfsg-16ubuntu6.4_amd64.deb
       5be3de2fafd378bbd0a39106536c6960087bdbaa0fad88f35396ec9e1401282e  init-system-helpers_1.51_all.deb
       dfed676bd0592994647f8478c92f66b8649930546794fe9c63e5e090a4f115b9  init_1.51_amd64.deb
-      e51d494da2e0dc113d8e48550acfc214e015afff9268553eef23a1c232ae1a36  initramfs-tools-bin_0.130ubuntu3.5_amd64.deb
+      09cc319dd5500ded0961c3fd75c4042493827df07822d9fb954a5dbe68893e76  initramfs-tools-bin_0.130ubuntu3.6_amd64.deb
       6a230e81093a00d7a53fc044bae1304994b89161fb4ab5da3679677e3d5b9f99  initramfs-tools-bin_0.130ubuntu3_amd64.deb
-      b72f090b506d48bea3d5b179601b5193196bee2ce00375bdc91a620cd0a0edc2  initramfs-tools-core_0.130ubuntu3.5_all.deb
+      6827264f2228342804a9da375b395ed8a33a50cee187e953df9a34e279f1cbfc  initramfs-tools-core_0.130ubuntu3.6_all.deb
       1aa674aefb65ba370e4a470d72fa32fbac5eb07024c7486e58b52a7cb6022f1f  initramfs-tools-core_0.130ubuntu3_all.deb
-      5abefb07759cac0f882dc7d1496015c4e453ec4b72bda61d3e76c4485331a965  initramfs-tools_0.130ubuntu3.5_all.deb
+      61162f4a2b91d0871af74f5ff0199992c77310c45a4016ea6eb32ad3b85f0483  initramfs-tools_0.130ubuntu3.6_all.deb
       a657d7cfcdf08faf3d84a25cf7cb551d565db4703a501e30152b15f20cfb639d  initramfs-tools_0.130ubuntu3_all.deb
       dffa3066d361d48f5c791609aa7026e98a7868f5c21cfd2c2139f0ad9c4b7908  iproute2_4.15.0-2ubuntu1_amd64.deb
       8f3d5fc01ac860d0e63af7342d567c9b9aa387ed3cb0a04797467e119c2a855e  iptables_1.6.1-2ubuntu2_amd64.deb
@@ -186,7 +187,9 @@
       994578071ae19337d3125b7219042a9a1d870b6c058e3fe82ce1741e0185d38b  libcilkrts5_7.3.0-27ubuntu1~18.04_amd64.deb
       6682dcb3b543a819e1b6f09d84f31154bd6af802c07a43e7689c920e193caeba  libcolord2_1.3.3-2build1_amd64.deb
       e325afd115cdf8709bd1cd49eff39a72d4fa168ab94e80b055fbc5365f765a15  libcom-err2_1.44.1-1_amd64.deb
+      49fe2b572cedb8c634ae539d19401403cf28f12b11b64a4729c9e3707ec80267  libcom-err2_1.44.1-1ubuntu1_amd64.deb
       d4aedc95e16009f74d984ea189bc88098ff96bc6d0ad9fcf92a39c0d6b48e83a  libcomerr2_1.44.1-1_amd64.deb
+      971d89d0a4f037fd4f86c714f55c34a539369919f48c95b6432809a29948ac5d  libcomerr2_1.44.1-1ubuntu1_amd64.deb
       02bea4a618bb3b069106357b8f487ac25ae5c3e4942cf1d325eeadcbac117fb5  libcroco3_0.6.12-2_amd64.deb
       a6bf9a310a34104a449dbceeee943a1a7d69721103af04955b8a26848488ec12  libcryptsetup12_2%3a2.0.2-1ubuntu1.1_amd64.deb
       a3040cc0143fb0e58a23ffa6e8b03860693c7277cbaf1621c72af51e425bfabe  libcryptsetup12_2%3a2.0.2-1ubuntu1_amd64.deb
@@ -215,6 +218,7 @@
       a0ac6b9fd81e8b45569a98ee4d857d28b44bb44cc98589aa987b113156cfb69d  libexpat1-dev_2.2.5-3_amd64.deb
       202db01e1b4204b6e34e44b4f4a6ba6b3928089c2fa728db86e13cd4b8548191  libexpat1_2.2.5-3_amd64.deb
       cfdd6d37cf68d95303a3c53981f6151188b0ce5c6297edb976a18d90861c7155  libext2fs2_1.44.1-1_amd64.deb
+      84d705a2fcab865bd5db1db96d3b2cc0f308c7456786b7ad2317085382ed0402  libext2fs2_1.44.1-1ubuntu1_amd64.deb
       50a45c2b89abf61b554b59d17ea3bbf43a4e2ccf9ca64b4d1621d33dbc5a14b5  libfaketime_0.9.7-2_amd64.deb
       51519c12de5cb24679833feafecd1c58e8835ad9849d7107987f55b5bd2782aa  libfastjson4_0.99.8-2_amd64.deb
       ce3089ef2abdda393507a81e40a59c00bbdf48736d1cb89ea2a5fb430e58ae1d  libfdisk1_2.31.1-0.4ubuntu3.2_amd64.deb
@@ -386,6 +390,7 @@
       b221b0e97363e410362b638481ec6537be7669a96672fea6ffd6469d56c7106d  libsoup2.4-1_2.62.1-1ubuntu0.1_amd64.deb
       4f3425ebf22f34f8e4d12958550993d82fa436eaa4a4b67ba35cc80491073580  libsqlite3-0_3.22.0-1_amd64.deb
       e4c1caa62effed622bbad3ad25cb475cabb43019e411e0e4d701465dba92b728  libss2_1.44.1-1_amd64.deb
+      112075416e89efe5c92083d6f21f0c88df01fab93b6b9320e7b144150f9f379e  libss2_1.44.1-1ubuntu1_amd64.deb
       336c4c6875f647a1e96fdda6bbb47c6bb56dbed0d30c73838fb0fb1890ef6ab6  libssl1.1_1.1.0g-2ubuntu4.3_amd64.deb
       82e424d50e144320319414a1964d3a980abde4bc39fc7d8c2885819328cb5cb4  libssl1.1_1.1.0g-2ubuntu4_amd64.deb
       e47fe34c143dd0461050eb8e6bcecc250d54951917f5a07ee72d568271d223fe  libstdc++-7-dev_7.3.0-16ubuntu3_amd64.deb
