@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    aa421e9aa99d8172a91f74ec2035fa60c5f7be402efef8a39a159f910d50e7a5  ion-3.1.99-osx-unsigned.dmg
-    06dec8edd52f1467f67b6d7753dc91f920a9e99aca4a3b324764146136fa9c80  ion-3.1.99-osx-unsigned.tar.gz
-    b6f716b57de742a6375ac839ae6ee60f3ddf81a6502cda6e6f8263a7b562ed78  ion-3.1.99-osx64.tar.gz
-    a97aa74052b2ee24d55a2d552ba6c42ed7e8c280144b3dc9449de0c946c4b416  src/ion-3.1.99.tar.gz
+    271c470def7b9b5f1b9b08aa9d16243b50c2e1a040a359cff67abdc6b0ad4a72  ion-3.1.99-osx-unsigned.dmg
+    b11265098c7bcc12ae827579969aea981c6a75ab0e7366b7bdce554f4827ca4d  ion-3.1.99-osx-unsigned.tar.gz
+    3a3c907530febf691119998ee06a03a090a50654be4ce2900aabcfb5c56b2e71  ion-3.1.99-osx64.tar.gz
+    f2a913a3c9f9e2219739ab8732a3b7946f14546c23771f3c220419ce7dc09dd2  src/ion-3.1.99.tar.gz
 - in_manifest: |-
     c5ff2a9ec74138cf92a9c45741e4759070bf8829edfc288358edcf518c0ecca5  ion-osx-3.1-desc.yml
     415a427a7c2a91187650ff5dfdb03e4d56912aa29c95471339733e1d569143f8  MacOSX10.11.sdk.tar.xz
-    git:2e2617ed8034c298bbd75025ac1b2611ca329d2f ion
+    git:bd65994933af063175093893c08167501b607533 ion
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -595,6 +595,8 @@
     ec8199da13e1d403db888669bbee83ab7ad413ec582f9100021e1bb8a003b558  x86_64-apple-darwin14/qt/qt-5.9.7-5ac133fea71.tar.gz.hash
     43853bf99f5874e3b492b8d07be3ef8771f263aad8161775143b5a3a0e763a6e  x86_64-apple-darwin14/qt/qt-5.9.7-75ba2d3c7c1.tar.gz
     27f5ed1fb4f6475e24ceca83980b7eb066ee6c1190b510abcae882ede7b2f03a  x86_64-apple-darwin14/qt/qt-5.9.7-75ba2d3c7c1.tar.gz.hash
+    a757ac928b52906d8361e6a2f3a56a0d0490e1a03db9fe4e65daf96a88a91501  x86_64-apple-darwin14/qt/qt-5.9.7-d5965fb1303.tar.gz
+    c6fefdd982aea090d6128921d89e8413abd6488632a1605d8df8b0b3dff6d737  x86_64-apple-darwin14/qt/qt-5.9.7-d5965fb1303.tar.gz.hash
     094f640f850facc07d4642ffc15977ca7d62a1023e17257e718d0cea13b2aa92  x86_64-apple-darwin14/zeromq/zeromq-4.2.2-a48e7146d5d.tar.gz
     f955cd36361363ee2d17c25247a1215745628f24fe8a57533bc350857c5eeffd  x86_64-apple-darwin14/zeromq/zeromq-4.2.2-a48e7146d5d.tar.gz.hash
     d65db92e11f4a7e70b6a00e70bdbe407c2da77ffeb7420ef8c7e35bb661a5737  x86_64-apple-darwin14/zeromq/zeromq-4.2.5-410d86aeda5.tar.gz
