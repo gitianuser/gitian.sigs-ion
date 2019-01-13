@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    aa421e9aa99d8172a91f74ec2035fa60c5f7be402efef8a39a159f910d50e7a5  ion-3.1.99-osx-unsigned.dmg
-    06dec8edd52f1467f67b6d7753dc91f920a9e99aca4a3b324764146136fa9c80  ion-3.1.99-osx-unsigned.tar.gz
-    b6f716b57de742a6375ac839ae6ee60f3ddf81a6502cda6e6f8263a7b562ed78  ion-3.1.99-osx64.tar.gz
-    a97aa74052b2ee24d55a2d552ba6c42ed7e8c280144b3dc9449de0c946c4b416  src/ion-3.1.99.tar.gz
+    271c470def7b9b5f1b9b08aa9d16243b50c2e1a040a359cff67abdc6b0ad4a72  ion-3.1.99-osx-unsigned.dmg
+    b11265098c7bcc12ae827579969aea981c6a75ab0e7366b7bdce554f4827ca4d  ion-3.1.99-osx-unsigned.tar.gz
+    3a3c907530febf691119998ee06a03a090a50654be4ce2900aabcfb5c56b2e71  ion-3.1.99-osx64.tar.gz
+    f2a913a3c9f9e2219739ab8732a3b7946f14546c23771f3c220419ce7dc09dd2  src/ion-3.1.99.tar.gz
 - in_manifest: |-
     c5ff2a9ec74138cf92a9c45741e4759070bf8829edfc288358edcf518c0ecca5  ion-osx-3.1-desc.yml
     415a427a7c2a91187650ff5dfdb03e4d56912aa29c95471339733e1d569143f8  MacOSX10.11.sdk.tar.xz
-    git:2e2617ed8034c298bbd75025ac1b2611ca329d2f ion
+    git:bd65994933af063175093893c08167501b607533 ion
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -101,7 +101,7 @@
       9aaca3ffda685cd6d270fa26fca7ce500e096b3686d352e1533ccdd1615db1cf  glib-networking-common_2.56.0-1_all.deb
       86135bc7eb9742c88c66e5b1b152123a5bf5d31d832db6b0ca5e64e2c7a9ae2a  glib-networking-services_2.56.0-1_amd64.deb
       195a5f655a82c54fdc61286c47d5c1b11b6d1459133171775b445de6af8299c0  glib-networking_2.56.0-1_amd64.deb
-      acaef58678759b6813d8b144e5608560acfbeed7dbcf8b83fc325ffd2e8d12b2  gpgv_2.2.4-1ubuntu1.1_amd64.deb
+      52d667c6a0ec9b4099a65592a1cf36da9cdf6b56f23beed892a05fd56dd9dc4d  gpgv_2.2.4-1ubuntu1.2_amd64.deb
       88884fe5969d37b15632e4da31472fe22483de2273ac6a97a70bf7e307632a9c  gpgv_2.2.4-1ubuntu1_amd64.deb
       30c80afa8a4f3095ec91ce5d3b46811099702002ad201cce60c0aa274ea489da  grep_3.1-2_amd64.deb
       a8d8b94578cc3c215796b0e3e214db54a3c49238aec661925e56168103ba7458  gsettings-desktop-schemas_3.28.0-1ubuntu1_all.deb
@@ -328,14 +328,14 @@
       3cbef00ed5b720b98eac1abebc199ef6799bc445311a3f951a9cfcc21ac8fe8c  libnewt0.52_0.52.20-1ubuntu1_amd64.deb
       fbaf9b8914a607e2a07e5525c6c9c0ecb71d70236f54ad185f4cc81b4541f6ba  libnfnetlink0_1.0.1-3_amd64.deb
       6655e9e57e7191313836e1cd2c8ee988489ab98c6f8a425216c8f2bd6135834a  libnghttp2-14_1.30.0-1ubuntu1_amd64.deb
-      eaa85fb73bab9b6ac825dbc7c2b4a5ddb096aab59a29c732f11f3cc8aecf0dbe  libnss-systemd_237-3ubuntu10.9_amd64.deb
+      93198a84afb249cbedd511407e4ffd0727f1b1826e2786516f3ad9ffbfb90fd1  libnss-systemd_237-3ubuntu10.11_amd64.deb
       fdfc5e32d91cb39538a24798b51759e42a27f0c6d1fa91da1a100c0a35df45e8  libnss-systemd_237-3ubuntu10_amd64.deb
       ea76e6ef23995a923af712697aee5ae44f1aca2f6b6a0cebc8c182390de9795c  libp11-kit0_0.23.9-2_amd64.deb
       d8d078aa01d3d7822a3396c3ed5c94a8043b6ce162d5dd1262f8630db4eb22f5  libpam-cap_1%3a2.25-1.2_amd64.deb
       3a159035311a27b2ee0799d5f816b98d2c93813a9fee20b221fe96283122b843  libpam-modules-bin_1.1.8-3.6ubuntu2_amd64.deb
       5aa3988f164b3779ffea4fe877305ce4d0fdc9772ecbb65a1cdf4761917eaba3  libpam-modules_1.1.8-3.6ubuntu2_amd64.deb
       bc590317079217e9d2f242ec4fcbae523a04db34baba8129746aa168d4c38c34  libpam-runtime_1.1.8-3.6ubuntu2_all.deb
-      ffbe78c0bb5ab866de124c269ed3cc2aa25887ec622c1fc573bd8d0b27d8000e  libpam-systemd_237-3ubuntu10.9_amd64.deb
+      936b56c03564cdbf0e3c11b4629c70cd97dc8815cfddc7844cd5777b70816134  libpam-systemd_237-3ubuntu10.11_amd64.deb
       b38889108085453bb8ec62ad898be74f77b853c4ab92362f21ce16f1c7ecef31  libpam-systemd_237-3ubuntu10_amd64.deb
       15c74e4ad6e337be3bec7c266bd7280622c8caa34f0599e77cb805c81b81d799  libpam0g_1.1.8-3.6ubuntu2_amd64.deb
       bbe6059047b0e03433aee358b01d12c8dc083532fbd8160494aeb9dc74f3a3d9  libpango-1.0-0_1.40.14-1ubuntu0.1_amd64.deb
@@ -398,7 +398,7 @@
       8668c100a679d68520256f9145ef6f9cf3912aa574605884fe866a4962415422  libstdc++6_8-20180414-1ubuntu2_amd64.deb
       453217a31904f58fe05a89c456ab9a50aac3f2ce877379b7613813e55a67e81f  libstdc++6_8.2.0-1ubuntu2~18.04_amd64.deb
       3c351bb3715758a7866cfca6d3751ac60904d9db1067d8dd21d28a1e743d96a3  libsvn1_1.9.7-4ubuntu1_amd64.deb
-      513eebfd2b7aa973457a14408a9a13c8f39529d66f2de714d81aa0e473a412b0  libsystemd0_237-3ubuntu10.9_amd64.deb
+      1d361ca22f887c725e03370fe3e176bd06b63d975ff3dae3d46ccd17d73fd17a  libsystemd0_237-3ubuntu10.11_amd64.deb
       c048ab8d240fb5e9700e9921d745a4ec4b304c75eba21d2a99576e87ebaba6b4  libsystemd0_237-3ubuntu10_amd64.deb
       60a665065add39d6fa2ea5dc91b766e843b0066c128144bc863c293796dd85ea  libtasn1-6_4.13-2_amd64.deb
       3929ca4c674d54d9a5d5bb966a29e3b7986d1a4aba13d9c827fa293f56f4fb65  libtext-charwidth-perl_0.04-7.1_amd64.deb
@@ -415,7 +415,7 @@
       4282530214f41bb6c0d03c55a42d4d5dc4cb887a77d1f5f44b203184d34607b1  libtsan0_8.2.0-1ubuntu2~18.04_amd64.deb
       87c1fa125edff484a04267fd6dd21098e3fd9de74a669b804d44853c925a4893  libubsan0_7.3.0-16ubuntu3_amd64.deb
       9da9a34b2de8383c2feaca57d2783ac683e22afbe96f8ab0715943810ce252c2  libubsan0_7.3.0-27ubuntu1~18.04_amd64.deb
-      050550a3cdc3fda9e199c1b9e29bfb06865994d770affbb5800091b1c5800b7e  libudev1_237-3ubuntu10.9_amd64.deb
+      c8dea5cf77ea33823e5903bafda098fc1cc3616ef82bcbfcc400fd5db600bd25  libudev1_237-3ubuntu10.11_amd64.deb
       a1dfd847e3d80e2a28efd9d9867dfb944b25629155e5aac79c231bc14cbded4c  libudev1_237-3ubuntu10_amd64.deb
       b56c6775f23e2b685448a37bb31d9efa56583eac66aaf9a6a719d5100d216130  libunistring2_0.9.9-0ubuntu1_amd64.deb
       515bdd27561c7f54c96baa8e73ec4f4a461c3d38598a9e471310db3931622c24  libuuid1_2.31.1-0.4ubuntu3.2_amd64.deb
@@ -482,11 +482,11 @@
       2d1107f7a845444fe11e2b6fd31cdc42a30fcc6e46c8cd23b93fcbf050b35db8  netcat-openbsd_1.187-1_amd64.deb
       aa5381260763cebb27e959718f5ff81540c9cee06b1d2ff8a34c9dcca1617596  netcat-openbsd_1.187-1ubuntu0.1_amd64.deb
       0f1fc02f7c4c9f9caf7ba10c394a36f0ab7d3e530310f779ca30a8eb1747356e  netplan.io_0.36.1_amd64.deb
-      c40e51bc5328dbc49c68b5cd8f4ba44d29d6464db920f329920e71b9e9f8980b  netplan.io_0.40.1~18.04.3_amd64.deb
+      7a72c87ed71fb20c14700935fa9949a3f437f16bdbb88b56bf847680e99cffb8  netplan.io_0.40.1~18.04.4_amd64.deb
       0202573d523e925ef579e1ecfdc60072a2ca7763f5611e490c81c232e7f56d64  networkd-dispatcher_1.7-0ubuntu3.3_all.deb
       16beda4e74335ebf57f658e4797c39ceacb0b7d4d45bdb26c3d187d97a24e512  networkd-dispatcher_1.7-0ubuntu3_all.deb
       eeb34a6a3c8786fa34f38c93fa3cdbdbb19da8a3227c913c024080443c8b2f96  nplan_0.36.1_all.deb
-      0cb241ce791a6c0e4906fe91f878eacece32ff80182996d85faffa22491e8fba  nplan_0.40.1~18.04.3_all.deb
+      65ba0127a12239aa0af15d77318a3136b077161771fb5266aed4fe1f282e0c12  nplan_0.40.1~18.04.4_all.deb
       83d6ee2d43a4a5cb8e80ca765bdea92a59199a9fb6d38238013fc885d5556a54  openssl_1.1.0g-2ubuntu4.3_amd64.deb
       fb3b0455003fd76200bd8d6ae1c16cefbd1586eb8727db4b159ab5afccaadfdb  openssl_1.1.0g-2ubuntu4_amd64.deb
       be39b0ea07800cc98de122adfa1d8e0895806b6715744e51df04b0b203a16202  passwd_1%3a4.5-1ubuntu1_amd64.deb
@@ -529,9 +529,9 @@
       1278d560955970c818e52bd939dc5f7b6653cfe90a994bcd804ca5075802e5c0  shared-mime-info_1.9-2_amd64.deb
       c06d54524c1c77524c55262a82e1f59d6aec531a338ab87549b03fbc7cb83c47  subversion_1.9.7-4ubuntu1_amd64.deb
       e8700e60a608e9ffe5ccf0ef43273d9e2b19934953c4f225994d461267684253  sudo_1.8.21p2-3ubuntu1_amd64.deb
-      abc89a79be985d4300ee1f39ee8aa6859cfa5cb9aa001cb447a87a75398afe9a  systemd-sysv_237-3ubuntu10.9_amd64.deb
+      a61fc68132356b75bdb281424f6ab3aaab0856ec080813e662ec8e7add72fd61  systemd-sysv_237-3ubuntu10.11_amd64.deb
       efd54dda1058f3d32e200cc179bed27c1c5134e7cc9fabd7cd39f9a640c8480a  systemd-sysv_237-3ubuntu10_amd64.deb
-      be99852295ebb54570376f56df1e9481a40264b7c8d05dfab56a7805394f5793  systemd_237-3ubuntu10.9_amd64.deb
+      101d939dda80f4af6f0cb60e2ff706d7384c7af4f37e339caced4b54e581e82b  systemd_237-3ubuntu10.11_amd64.deb
       be2358240a9715336df94a8110e520badd6a5df02dfde8597c5555aac13e7caf  systemd_237-3ubuntu10_amd64.deb
       35e24a72b6e48aa910186b0c5ccf95d039c543f0e8174d7dbe2393cf3de3ea7a  sysvinit-utils_2.88dsf-59.10ubuntu1_amd64.deb
       3c7d61b38fe021a35b0c5b7681a9f1beef59b25133aac05dd418c91e9d37ffa4  tar_1.29b-2_amd64.deb
@@ -543,7 +543,7 @@
       1f5c52252b4f41c2a6003df90e6fa22c5c79bfc1cf01a1684d5fd0007d04f79d  ubuntu-minimal_1.417_amd64.deb
       65399cbe23b12eef5f1a878a595f82cfe1c423eec2b7e876385d3e61e3dbaa70  ubuntu-mono_16.10+18.04.20181005-0ubuntu1_all.deb
       fb069365dce07ec9b04110e806736c5a5d0b0f350216c90912749226f1187ed5  ucf_3.0038_all.deb
-      d92af209f1cdce21335f3280e53cfd37ee3085987b8794b36e01f8311b339cf4  udev_237-3ubuntu10.9_amd64.deb
+      29ba474679c33ea4b7142abcc3e0d1a3fe0738f5a534ee6474c36898de7aa406  udev_237-3ubuntu10.11_amd64.deb
       63928ccddf9c1afb71987d4910550f25b8d48a570a43c3640b5bfe39d48bcbfb  udev_237-3ubuntu10_amd64.deb
       023dd83e259e7353e3f71fe3661f898424436da787eb728a562ac104ed12997e  util-linux_2.31.1-0.4ubuntu3.2_amd64.deb
       22aabb3968928c1f9ecbb8c0f03546f563790c35b5c5193c4a8661675ee1f11f  util-linux_2.31.1-0.4ubuntu3_amd64.deb
@@ -654,6 +654,8 @@
     3058cb9884594bc71aa977302f36f9011c5bdc9c50bd4198426d9dccb10eb7a4  x86_64-apple-darwin14/qrencode/qrencode-3.4.4-b19fd15ec96.tar.gz.hash
     4c46fd2056958de3dc64c9d74ea5ca6cedb13c716564e65f67c4b70aae8df451  x86_64-apple-darwin14/qt/qt-5.9.7-75ba2d3c7c1.tar.gz
     7dcbc4aff7cc93bb72f6e54c490af07ddb5c45bc02689db036afe86d3e9ccd82  x86_64-apple-darwin14/qt/qt-5.9.7-75ba2d3c7c1.tar.gz.hash
+    a757ac928b52906d8361e6a2f3a56a0d0490e1a03db9fe4e65daf96a88a91501  x86_64-apple-darwin14/qt/qt-5.9.7-d5965fb1303.tar.gz
+    c6fefdd982aea090d6128921d89e8413abd6488632a1605d8df8b0b3dff6d737  x86_64-apple-darwin14/qt/qt-5.9.7-d5965fb1303.tar.gz.hash
     a445389cff00437e96eb85eba7dead10116a121d4daded1b4f5a880ca747c9a2  x86_64-apple-darwin14/zeromq/zeromq-4.2.5-410d86aeda5.tar.gz
     57d37c81d930004a6b1bf1431caaf1323db363a06ba192d0eff5f07689f8fde9  x86_64-apple-darwin14/zeromq/zeromq-4.2.5-410d86aeda5.tar.gz.hash
     c986beab1b4fb62bdde71d4e6c7215cfa3cfb36620b5658de1dcf338b01c3da9  x86_64-apple-darwin14/zlib/zlib-1.2.11-850aef89b1a.tar.gz
