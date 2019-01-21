@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    271c470def7b9b5f1b9b08aa9d16243b50c2e1a040a359cff67abdc6b0ad4a72  ion-3.1.99-osx-unsigned.dmg
-    b11265098c7bcc12ae827579969aea981c6a75ab0e7366b7bdce554f4827ca4d  ion-3.1.99-osx-unsigned.tar.gz
-    3a3c907530febf691119998ee06a03a090a50654be4ce2900aabcfb5c56b2e71  ion-3.1.99-osx64.tar.gz
-    f2a913a3c9f9e2219739ab8732a3b7946f14546c23771f3c220419ce7dc09dd2  src/ion-3.1.99.tar.gz
+    2eb2b437597ed1c5dd41843f51b2ecbfd31efac00053e05418c7f27b72dfd8f3  ion-3.1.99-osx-unsigned.dmg
+    c3c04f2323be9a45aabe6f7b63b3744e4eb18595d9079aff847e68f782706996  ion-3.1.99-osx-unsigned.tar.xz
+    dd6bc05107b26f9f1fc4ab4490e092d9ff2b9667afa9a432e9516e6455bc915c  ion-3.1.99-osx64.tar.xz
+    28c6846d43b88b483dfce3bddb2aa77bec1194e12a4974d67cf27931dd398704  src/ion-3.1.99.tar.gz
 - in_manifest: |-
-    c5ff2a9ec74138cf92a9c45741e4759070bf8829edfc288358edcf518c0ecca5  ion-osx-3.1-desc.yml
+    27ec59e873daac6921b576b515d90715234ee461f776148eaa5ed9f981899eb0  ion-osx-3.1-desc.yml
     415a427a7c2a91187650ff5dfdb03e4d56912aa29c95471339733e1d569143f8  MacOSX10.11.sdk.tar.xz
-    git:bd65994933af063175093893c08167501b607533 ion
+    git:229dbdb38b93776b9c10ab79454679f99a96679b ion
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -31,7 +31,7 @@
       47e684ddebf2c373da896d3159580aece2fb47af0ab477e408d4a44e2605c386  binutils_2.30-21ubuntu1~18.04_amd64.deb
       d33d3c0340c7ce78bae031ea5c0b3568967d1eda512168524464bf30569bdd88  bridge-utils_1.5-15ubuntu1_amd64.deb
       d34835828bad74f2289562641ba0a7b3d21f906a579f282141e63ac687b8eb72  bsdmainutils_11.1.2ubuntu1_amd64.deb
-      61cab9a00016155b3e99587610ad70b70a0a156f5f5d8f48d9fcd74060f22d30  bsdutils_1%3a2.31.1-0.4ubuntu3.2_amd64.deb
+      ac8da1df654f8a43a9a82eb67d257dd903db075f078814cac3a30d5deeef4bf7  bsdutils_1%3a2.31.1-0.4ubuntu3.3_amd64.deb
       842bf6a7fbe2b179185ebfa3032771972a4f18405c398a792759f1a98b419a85  bsdutils_1%3a2.31.1-0.4ubuntu3_amd64.deb
       bb2ac7aae21544446f45e200aacb961f0dcc42c8caacdc8da37d392b222abfa0  build-essential_12.4ubuntu1_amd64.deb
       48c4216f5494e5edf7b58d1fb39be8ff47525554926f848ea5a1e3325e2d3e65  busybox-initramfs_1%3a1.27.2-2ubuntu3_amd64.deb
@@ -72,7 +72,7 @@
       11378a182fb3500735f464674512b8c07333a6f139a2a55498fbc12e131272aa  e2fsprogs_1.44.1-1ubuntu1_amd64.deb
       df72c92e334e019cdd410414f73199570e1067f9fd7baebdc7d895e10883a89f  eject_2.1.5+deb1+cvs20081104-13.2_amd64.deb
       4b5119a3da92c33879518dce0f3152aae77a9c23a1ea9a1400976898ecda37e4  faketime_0.9.7-2_amd64.deb
-      74764f7ff110b63a5c44fc6ae25d45fd600a68907638805ec187ee792c700322  fdisk_2.31.1-0.4ubuntu3.2_amd64.deb
+      b8f09fccb18feccabb784ec1a8f1bfc7075f5840e4e9e1ae18e77633ce206704  fdisk_2.31.1-0.4ubuntu3.3_amd64.deb
       1634050aa9bcf1b097e6bf143eed1e6cad207de4992c8d298107b7dc322fad32  fdisk_2.31.1-0.4ubuntu3_amd64.deb
       8ab11e14a555a0a3e2ee628b81736497bf2792c984e76937e10fbbaf36aa13d4  file_1%3a5.32-2_amd64.deb
       9ad57da60104eee39bcd0981e9bb0bd7b83d1b1623571156d8d56d2249aa6041  file_1%3a5.32-2ubuntu0.1_amd64.deb
@@ -146,7 +146,7 @@
       8d75770a4ff071c2a5c854889f2722083523a20ea776e12663598edb4a970bc3  libapt-inst2.0_1.6.6_amd64.deb
       6e554b29f2819f124b74bc49caa15c4e9569a17e76ca4d125eb47bdaf0c12b69  libapt-pkg5.0_1.6.1_amd64.deb
       01d9c70e3def4ef21037f3b778f5f0a24c93d84ce8f96663737d10d57472a370  libapt-pkg5.0_1.6.6_amd64.deb
-      7f08eb52a1927146e0f57f1a870e14b18a77165eed318ffb697c93d5c1d40681  libarchive13_3.2.2-3.1ubuntu0.1_amd64.deb
+      9ba98d81cff0993af6c414dbbc6a67194eff91640bf4ef327d89273d0c646796  libarchive13_3.2.2-3.1ubuntu0.2_amd64.deb
       3f66dc6094e4173a559183da65a06fe1be235c1baa268d7145d2abc813164b50  libargon2-0_0~20161029-1.1_amd64.deb
       92f5f15faca8cee48608b58a0300c469c076dd1dd8946b93b8428abd404d54f9  libasan4_7.3.0-16ubuntu3_amd64.deb
       3b408b3f2406cec4cf5d3eb561de8275f8406346b3d37a85b07b506c20be4a23  libasan4_7.3.0-27ubuntu1~18.04_amd64.deb
@@ -166,7 +166,7 @@
       27b58a537a78c9c3d5394f38d62c0a62170864738738ce3bf1821c8a6c6e63fc  libavahi-common3_0.7-3.1ubuntu1.1_amd64.deb
       d3f79b026718ba780d3297d1d92347283c8ecfa92f6483ef2d84bc71bca0f871  libbinutils_2.30-15ubuntu1_amd64.deb
       9e7a7791b4f7d2a7b2ea0a69a1c76cbb93834833b0cb32a9865d7858b2eaa2de  libbinutils_2.30-21ubuntu1~18.04_amd64.deb
-      4a39ae00adfa5a83f30bdcef3ce1bc64a6f7fef7a0801456e034b2e1b1510a5e  libblkid1_2.31.1-0.4ubuntu3.2_amd64.deb
+      fb00c5fbd70cfdd5f3baa0e3ed0d50149fcfba46ca87902ae62ea1f658d552cb  libblkid1_2.31.1-0.4ubuntu3.3_amd64.deb
       f9352075c447bc992877663fb709d1deb27eab52c7c2b03f262e1afb324b235e  libblkid1_2.31.1-0.4ubuntu3_amd64.deb
       b73172c736941942e8893db6b7307e6525b05b9601827238f5c4a6d59d44f786  libbsd0_0.8.7-1_amd64.deb
       3f7b1e9021ad4d3603ec53c21557570e101e1e03d9428ce6ab5ed0153b43742b  libbz2-1.0_1.0.6-8.1_amd64.deb
@@ -193,7 +193,7 @@
       02bea4a618bb3b069106357b8f487ac25ae5c3e4942cf1d325eeadcbac117fb5  libcroco3_0.6.12-2_amd64.deb
       a6bf9a310a34104a449dbceeee943a1a7d69721103af04955b8a26848488ec12  libcryptsetup12_2%3a2.0.2-1ubuntu1.1_amd64.deb
       a3040cc0143fb0e58a23ffa6e8b03860693c7277cbaf1621c72af51e425bfabe  libcryptsetup12_2%3a2.0.2-1ubuntu1_amd64.deb
-      72260824bee6f13a074d9908573b727532e9df2df6f4e323564a07e8f666212c  libcups2_2.2.7-1ubuntu2.2_amd64.deb
+      ef8b1dcb74d8edf650007ba510ae4f4733249191c985fa3cb9681816e152425e  libcups2_2.2.7-1ubuntu2.3_amd64.deb
       8e6bf88c30468e5e362274547c123ed1202ed2e0f7539b82fdbfcad13adcb4c0  libcurl3-gnutls_7.58.0-2ubuntu3.5_amd64.deb
       c9113664ca6b8b77712b20dcc9df2958c68750e44915a96f81d9e7454b196e55  libcurl3-gnutls_7.58.0-2ubuntu3_amd64.deb
       46bf23a60d996697162df4d1e06b1ced8b7dcc535aaa999a2b14abf6ff423f11  libcurl4_7.58.0-2ubuntu3.5_amd64.deb
@@ -221,7 +221,7 @@
       84d705a2fcab865bd5db1db96d3b2cc0f308c7456786b7ad2317085382ed0402  libext2fs2_1.44.1-1ubuntu1_amd64.deb
       50a45c2b89abf61b554b59d17ea3bbf43a4e2ccf9ca64b4d1621d33dbc5a14b5  libfaketime_0.9.7-2_amd64.deb
       51519c12de5cb24679833feafecd1c58e8835ad9849d7107987f55b5bd2782aa  libfastjson4_0.99.8-2_amd64.deb
-      ce3089ef2abdda393507a81e40a59c00bbdf48736d1cb89ea2a5fb430e58ae1d  libfdisk1_2.31.1-0.4ubuntu3.2_amd64.deb
+      b3b2f379b49e9d0b5ea9e958d2ef4220ae9e95c5622509bc07aefdfc81e8cfa4  libfdisk1_2.31.1-0.4ubuntu3.3_amd64.deb
       38e11b3b9fc7963fed79ea9a3125bb7489b0348395ad8ee8bbe971c3d558cf55  libfdisk1_2.31.1-0.4ubuntu3_amd64.deb
       fa26945b0aadfc72ec623c68be9cc59235a7fe42e2388f7015fd131f4fb06dc9  libffi6_3.2.1-8_amd64.deb
       0077da6adf022d1d0bc8401c588ba6c4b52bb91400ab61597640181f580ab635  libfftw3-double3_3.3.7-1_amd64.deb
@@ -253,6 +253,7 @@
       afcf8629c4de6946d73661126ae4e0a28f9718c8720900201d46fd963e0b5ccf  libgpg-error0_1.27-6_amd64.deb
       025a3f198effa10186d18603dae350f012b3471b78dad22d29bf2c0a02e42622  libgraphite2-3_1.3.11-2_amd64.deb
       faf51322f26debf0cc23222ba07e21e7b91af568895c5b7fb3dc6747321b8f07  libgssapi-krb5-2_1.16-2build1_amd64.deb
+      80458486ea7e45a82829852447f2972aac0aa0b65f31875b23af71283cede455  libgssapi-krb5-2_1.16-2ubuntu0.1_amd64.deb
       1a8952506c468c9659e9eef297440ef6209063fd7c78153a71d97033761eb9f3  libgssapi3-heimdal_7.5.0+dfsg-1_amd64.deb
       fc22526d164921bc8f86b9cd215534589d44d99f9342ad5b838651e83fa5a5cf  libgtk-3-0_3.22.30-1ubuntu1_amd64.deb
       9671373497d62ebafbcf107e3fb22765a20feae6659621783422408d0a507d49  libgtk-3-common_3.22.30-1ubuntu1_all.deb
@@ -281,13 +282,16 @@
       61904eea635066e77a7cb07c96f4460c77cdc9b3d1f08d275e6a588a34391ad1  libjson-glib-1.0-common_1.4.2-3_all.deb
       c0467781913f8a59e60b63efcbf334f17058128076c1b265803d98e9e93815cd  libjsoncpp1_1.7.4-3_amd64.deb
       183b5cc62c875f62efa342ec541254c8e0ba95e98e31d30ff33abd59743da9f1  libk5crypto3_1.16-2build1_amd64.deb
+      48c54179dfb1162288d996288f491451258a35135a7051f9315a4a8c2877d90f  libk5crypto3_1.16-2ubuntu0.1_amd64.deb
       0ba4ab4a5b6510de82a45a2ed69250b866f330bb761f2d478b6382a402c889f0  libkeyutils1_1.5.9-9.2ubuntu2_amd64.deb
       46ee064e6cf6537ea83963ef70d316b98dd9a133817484c7e45384d75bb3aee4  libklibc_2.0.4-9ubuntu2_amd64.deb
       435da624ed1662cf905fbd16f2c8c299b07e5bd0cc9a42cb81b014d943eb3d8f  libkmod2_24-1ubuntu3.1_amd64.deb
       2109ee77049263c5b206135cc8870d6f66f60e27dcc3767acb1e79a17f6384fe  libkmod2_24-1ubuntu3_amd64.deb
       375544daaee0c81460d8be276bf6c382eb2e8fb1ca197599a82263d025f81844  libkrb5-26-heimdal_7.5.0+dfsg-1_amd64.deb
       7161590a7217f84db01f3cf5aae2a80f75e9070495222d25dd3190f502c77e97  libkrb5-3_1.16-2build1_amd64.deb
+      425f11182e1a4ac70a256cd351658e249f8db68e6439247da2b9beab211617d6  libkrb5-3_1.16-2ubuntu0.1_amd64.deb
       1f908193bd1f6a8bc0525b96132ba335c66edd1f82a3015e6ab6ed605ee573aa  libkrb5support0_1.16-2build1_amd64.deb
+      2e1c3a4d7a2c575c918e64121e766c612f076514d328b041821082013ab2a55b  libkrb5support0_1.16-2ubuntu0.1_amd64.deb
       a08e5e734bcb5a827772e326dad7c0411bbac9399f0f635edfa6b1f09ad80bdb  liblcms2-2_2.9-1ubuntu0.1_amd64.deb
       09813324c0b278ee7933f3d05d354c59363f9cbe31dccd2635a0b4e64650a359  libldap-2.4-2_2.4.45+dfsg-1ubuntu1.1_amd64.deb
       f5a1338180e0fa8b664c1038ad6e7ed5c9837b84e867032e218a80f9c2e8dc8d  libldap-2.4-2_2.4.45+dfsg-1ubuntu1_amd64.deb
@@ -312,7 +316,7 @@
       c4dcd5cc181d8bc5d99bb973e7ae7dd0f3b144dfb1a3adcadb59909035e1fd11  libmagickcore-6.q16-3_8%3a6.9.7.4+dfsg-16ubuntu6.4_amd64.deb
       de37d40cefe27dbe41c53997a1d0abb7e75d757dd192260fc097ea0f2ff0184e  libmagickwand-6.q16-3_8%3a6.9.7.4+dfsg-16ubuntu6.4_amd64.deb
       b0e446accd3884d6b87994170e2c9c4867299f922c6fffe1d1e7861d241f8b5c  libmnl0_1.0.4-2_amd64.deb
-      93e6731355572338f687fdc6e4e4c891a5f38dce3fd298341f757bdbd7006477  libmount1_2.31.1-0.4ubuntu3.2_amd64.deb
+      35ad407e44f21573a94b08f0a74f1f0fcf8a805c500d9b7e04f42348633df3b4  libmount1_2.31.1-0.4ubuntu3.3_amd64.deb
       ee0ec4b17ec9391275c5c666ecbc899c261d41f1facd2c19a057dd94a83ebe5e  libmount1_2.31.1-0.4ubuntu3_amd64.deb
       3c3c45aa50ce1ff753107766c6fea35a82c52ad11afcab0abfd0cd0c76730f87  libmpc3_1.1.0-1_amd64.deb
       2962dbb81413ad47fee589bb6663589e38b84d80b4d55d8019f0b305025c5eb6  libmpdec2_2.4.2-1ubuntu1_amd64.deb
@@ -384,7 +388,7 @@
       2691285f636fb0a083a7d452661c7a56044e18e8341609f1109897f844e94b80  libserf-1-1_1.3.9-6_amd64.deb
       233ba112b0c15cc602c6d5537ae427531228d78a0586dc8d39d5b6aac47921c1  libsigsegv2_2.12-1_amd64.deb
       f0c143c0a008dbe3a4a80f2beccf677caf481c407894be6a21967103b0aedafb  libslang2_2.3.1a-3ubuntu1_amd64.deb
-      948c2a245f04991d88b0abb6ea77bfc103fcabfb0be90192eb0f18285ecb3564  libsmartcols1_2.31.1-0.4ubuntu3.2_amd64.deb
+      4622af25b2c41375ddfa00ead0f2434768c52e465f6bc11da1f336290f0c3669  libsmartcols1_2.31.1-0.4ubuntu3.3_amd64.deb
       d323a412965fffb337344503fcb4b37ee93bc0abe954c0b38add68aaf80050d0  libsmartcols1_2.31.1-0.4ubuntu3_amd64.deb
       0b736f790aaae8542706f4f0eae87acafcc2de01992c498988f18c8d9c970965  libsoup-gnome2.4-1_2.62.1-1ubuntu0.1_amd64.deb
       b221b0e97363e410362b638481ec6537be7669a96672fea6ffd6469d56c7106d  libsoup2.4-1_2.62.1-1ubuntu0.1_amd64.deb
@@ -418,7 +422,7 @@
       c8dea5cf77ea33823e5903bafda098fc1cc3616ef82bcbfcc400fd5db600bd25  libudev1_237-3ubuntu10.11_amd64.deb
       a1dfd847e3d80e2a28efd9d9867dfb944b25629155e5aac79c231bc14cbded4c  libudev1_237-3ubuntu10_amd64.deb
       b56c6775f23e2b685448a37bb31d9efa56583eac66aaf9a6a719d5100d216130  libunistring2_0.9.9-0ubuntu1_amd64.deb
-      515bdd27561c7f54c96baa8e73ec4f4a461c3d38598a9e471310db3931622c24  libuuid1_2.31.1-0.4ubuntu3.2_amd64.deb
+      b20eb0cb917e90571afae00bfa0ff583d2103bc20c002a9a0c50aab4dfbd01bc  libuuid1_2.31.1-0.4ubuntu3.3_amd64.deb
       7bfa86290f98674ca44952cab82de54f811b8b784045ab5290eceb8efa08797d  libuuid1_2.31.1-0.4ubuntu3_amd64.deb
       0770ba74cdbdedf8d66e550d513483d172c88661831acdcb163fd75d082c3ded  libuv1_1.18.0-3_amd64.deb
       1ce96635a957e32e252c859d97eb21cacf395067e78b9fac4ab855c38cb43e98  libwayland-client0_1.14.0-2_amd64.deb
@@ -471,7 +475,7 @@
       6a7f7b7ad1f6ff6332099ed9ceaa4889a6ce56a7a48817ddccc0952126059d07  make_4.1-9.1ubuntu1_amd64.deb
       8261763e3a25c21fb015779bde4a088baea74a468ee66347ab2744cd3b52d3f7  mawk_1.3.3-17ubuntu3_amd64.deb
       98e05aa03538c5f182ed14cbb59cfe64b30592d77e602abd2442a9f1c72532b3  mime-support_3.60ubuntu1_all.deb
-      8ceb279e8498e2555047bd58fa4b84f23e223b392b84171bb22b16ffb2aabcb1  mount_2.31.1-0.4ubuntu3.2_amd64.deb
+      096b32c1fc441bec0a1079b736bdd4e7b3e95272e0f5a63852500e02c5d7e80b  mount_2.31.1-0.4ubuntu3.3_amd64.deb
       5bb872f790b2cf3c3ab9a8fb1927aabd01fb51630f9f764cf851eb7765b5e44c  mount_2.31.1-0.4ubuntu3_amd64.deb
       03709410ef65de9589e559318bb78e3ca3a86a43a92af7dd11d69e98f0a6067e  multiarch-support_2.27-3ubuntu1_amd64.deb
       a96e3fa61cc0f8a119cf8de40f6b22ffc21d9a333fbafde7917bd38236222658  ncurses-base_6.1-1ubuntu1.18.04_all.deb
@@ -545,7 +549,7 @@
       fb069365dce07ec9b04110e806736c5a5d0b0f350216c90912749226f1187ed5  ucf_3.0038_all.deb
       29ba474679c33ea4b7142abcc3e0d1a3fe0738f5a534ee6474c36898de7aa406  udev_237-3ubuntu10.11_amd64.deb
       63928ccddf9c1afb71987d4910550f25b8d48a570a43c3640b5bfe39d48bcbfb  udev_237-3ubuntu10_amd64.deb
-      023dd83e259e7353e3f71fe3661f898424436da787eb728a562ac104ed12997e  util-linux_2.31.1-0.4ubuntu3.2_amd64.deb
+      fcde9feab2c1b5cb21aad5b5d729ab759fc30d3f7aa981510c1f646f3721ed04  util-linux_2.31.1-0.4ubuntu3.3_amd64.deb
       22aabb3968928c1f9ecbb8c0f03546f563790c35b5c5193c4a8661675ee1f11f  util-linux_2.31.1-0.4ubuntu3_amd64.deb
       3a1e31b1fc976cb4e6410f1860db3226ceddc373c7513443e208da256c8bf376  vim-common_2%3a8.0.1453-1ubuntu1_all.deb
       fa571e8c28cc4761aded3f0b462246cef34facd18637b0e29394ba32d14e13a3  vim-tiny_2%3a8.0.1453-1ubuntu1_amd64.deb
